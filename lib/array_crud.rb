@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  create_an_array = ["air", "earth", "fire", "water"]
-  create_an_array << "arrays"
+  array = ["air", "earth", "fire", "water"]
+  create_an_array << element
   puts create_an_array.inspect
 end
 
